@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+{
+
+  char recieved_string[102];
+  char rs_2[102];
+  printf("\n This program repeats the recieved string for infinity:\n");
+  gets(recieved_string);
+  strcpy(rs_2,recieved_string);
+                                     
+  for (;;) {
+	printf("\n %s \n",rs_2);
+            }
+  system("PAUSE");	
+  return 0;
+}
